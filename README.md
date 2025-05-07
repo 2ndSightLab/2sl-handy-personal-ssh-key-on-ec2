@@ -49,6 +49,8 @@ vi ~/.ssh/authorized_keys
 
 Paste the public key information from your new key pair underneath the existing public key information. 
 
+Note that you can leave off the email.
+
 Save the file.
 
 You can also add it programmatically when creating an AMI.
