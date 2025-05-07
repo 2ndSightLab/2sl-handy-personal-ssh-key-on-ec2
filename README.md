@@ -59,6 +59,8 @@ You can leave the existing key as a backup or remove it if you are confident you
                                     
 Test connecting to your instance using your new key.
 
+You will be asked to enter the passphrase you added ot the key.
+
 Remember that if you change the underlying instance for a key you have created you will need to remove it from .ssh/known_hosts. I usually just delete that whole directory when usign the same key to connnect to a different instance. I've also written about the risks surrounding that error message here:
 
 https://medium.com/cloud-security/warning-remote-host-identification-has-changed-30e0f4164160
