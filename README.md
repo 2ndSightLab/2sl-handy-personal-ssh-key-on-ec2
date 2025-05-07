@@ -2,7 +2,7 @@
 Add your own SSH key to a Linux EC2 instance
 
 Createa new ssh key on your system
-ssh-keygen -t ed25519 -C "your_email@your_domain.com"
+ssh-keygen -t ed25519
 
 Follow the prompts:
 ```
