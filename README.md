@@ -44,7 +44,7 @@ Connect to the EC2 instance you want to connect to with your own SSH key.
 Using a text editor of your choice, open the .ssh/authorized_keys file on the instance. 
 
 ```
-vi ~/.ssh/known_hosts
+vi ~/.ssh/authorized_keys
 ```
 
 Paste the public key information from your new key pair underneath the existing public key information. 
