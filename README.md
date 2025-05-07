@@ -5,7 +5,7 @@ Createa new ssh key on your system
 ssh-keygen -t ed25519 -C "your_email@your_domain.com"
 
 Follow the prompts:
-
+```
 Generating public/private ed25519 key pair.
 Enter file in which to save the key (/path/.ssh/id_ed25519): [file name]  
 Enter passphrase for "[file name]" (empty for no passphrase): 
@@ -16,9 +16,10 @@ The key fingerprint is:
 SHA256:[key id] [email]
 The key's randomart image is:
 [IMAGE]
-
+```
+```
 ls -al
-
+```
 You'll see:
 [filename] (your file)
 [filename].pub (your public key)
