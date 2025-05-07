@@ -39,9 +39,17 @@ Add the public key to the EC2 instance.
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-key-pair.html
 
-Using a text editor of your choice, open the .ssh/authorized_keys file on the instance. Paste the public key information from your new key pair underneath the existing public key information. Save the file.
+Connect to the EC2 instance you want to connect to with your own SSH key.
 
-i.e. copy [filename].pub above to .ssh/authorized_keys/[filename].pub on your EC2 instance.
+Using a text editor of your choice, open the .ssh/authorized_keys file on the instance. 
+
+```
+vi ~/.ssh/known_hosts
+```
+
+Paste the public key information from your new key pair underneath the existing public key information. 
+
+Save the file.
 
 You can also add it programmatically when creating an AMI.
 
