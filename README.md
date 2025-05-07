@@ -21,9 +21,11 @@ The key's randomart image is:
 ls -al
 ```
 You'll see:
+
+```
 [filename] (your file)
 [filename].pub (your public key)
-
+```
 Add the public key to the EC2 instance.
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-key-pair.html
