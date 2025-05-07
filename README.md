@@ -58,3 +58,4 @@ Benefits and risks:
 * Requires a passphrase to access the host (though if it's easy to guess not that much help).
 * Can use automation to periodically rotate the SSH keys (not saying it's easy and need to look into that a bit more - can AWS Secrets Manager do that?)
 * If you lose the private key you created, AWS can't help you.
+* BTW you can put your SSH key on a yubikey. :-)
