@@ -26,6 +26,10 @@ You'll see:
 [filename] (your file)
 [filename].pub (your public key)
 ```
+Change the permissions on the private key.
+
+chmod 400 [filename]
+
 Add the public key to the EC2 instance.
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-key-pair.html
