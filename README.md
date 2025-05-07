@@ -26,9 +26,14 @@ You'll see:
 [filename] (your file)
 [filename].pub (your public key)
 ```
+
+Backup your keys to a secure location.
+
 Change the permissions on the private key.
 
+```
 chmod 400 [filename]
+```
 
 Add the public key to the EC2 instance.
 
